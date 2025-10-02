@@ -1,4 +1,4 @@
-German:
+# 🇩🇪 German:
 # Meine Minecraft Mod
 
 Willkommen zu meinem Modding-Projekt!   
