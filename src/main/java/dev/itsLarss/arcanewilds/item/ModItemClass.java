@@ -1,8 +1,7 @@
 package dev.itsLarss.arcanewilds.item;
 
 import dev.itsLarss.arcanewilds.ArcaneWilds;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -44,6 +43,22 @@ public class ModItemClass {
     public static final RegistryObject<Item> JADE_SWORD = ITEMS.register("jade_sword",
             () -> new SwordItem(ModToolTiers.JADE, new Item.Properties()
                     .attributes(SwordItem.createAttributes(ModToolTiers.JADE, 7, -2.4f))));
+
+    public static final RegistryObject<Item> JADE_PICKAXE = ITEMS.register("jade_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.JADE, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.JADE, 4, -2.8f))));
+
+    public static final RegistryObject<Item> JADE_AXE = ITEMS.register("jade_axe",
+            () -> new AxeItem(ModToolTiers.JADE, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.JADE, 9, -2.4f))));
+
+    public static final RegistryObject<Item> JADE_SHOVEL = ITEMS.register("jade_shovel",
+            () -> new ShovelItem(ModToolTiers.JADE, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.JADE, 6.5f, -3f))));
+
+    public static final RegistryObject<Item> JADE_HOE = ITEMS.register("jade_hoe",
+            () -> new HoeItem(ModToolTiers.JADE, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.JADE, 0, 0))));
 
     public static final RegistryObject<Item> AMETHYST = ITEMS.register("amethyst",
             () -> new Item(new Item.Properties()));

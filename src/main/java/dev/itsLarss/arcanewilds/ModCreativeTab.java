@@ -23,7 +23,12 @@ public class ModCreativeTab {
                         out.accept(ModItemClass.RASPBERRY.get());
                         out.accept(ModItemClass.DRAGON_FRUIT.get());
                         out.accept(ModItemClass.GOLDEN_DRAGON_FRUIT.get());
+                        out.accept(ModItemClass.JADE.get());
                         out.accept(ModItemClass.JADE_SWORD.get());
+                        out.accept(ModItemClass.JADE_PICKAXE.get());
+                        out.accept(ModItemClass.JADE_AXE.get());
+                        out.accept(ModItemClass.JADE_SHOVEL.get());
+                        out.accept(ModItemClass.JADE_HOE.get());
 
                     }).build());
 
