@@ -5,7 +5,21 @@ pluginManagement {
             name = 'MinecraftForge'
             url = 'https://maven.minecraftforge.net/'
         }
-        maven { url = 'https://maven.parchmentmc.org' } // Add this line
+        maven {
+            url = 'https://maven.parchmentmc.org'
+        }
+        maven {
+            url = 'https://repo.spongepowered.org/maven'
+        }
+        maven {
+            name = 'GeckoLib'
+            url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+            content {
+                includeGroupByRegex("software\\.bernie.*")
+                includeGroup("com.eliotlash.mclib")
+            }
+        }
+
     }
 }
 
