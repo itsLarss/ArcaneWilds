@@ -5,10 +5,10 @@ pluginManagement {
             name = 'MinecraftForge'
             url = 'https://maven.minecraftforge.net/'
         }
-        /*maven {
-            url = 'https://maven.parchmentmc.org'
-        }*/
         maven {
+            url = 'https://maven.parchmentmc.org'
+        }
+        /*maven {
             url = 'https://repo.spongepowered.org/maven'
         }
         maven {
@@ -18,7 +18,7 @@ pluginManagement {
                 includeGroupByRegex("software\\.bernie.*")
                 includeGroup("com.eliotlash.mclib")
             }
-        }
+        }*/
 
     }
 }
