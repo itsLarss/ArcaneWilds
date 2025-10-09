@@ -26,7 +26,7 @@ public class ModArmorMaterials {
                 attribute.put(ArmorItem.Type.CHESTPLATE, 7);
                 attribute.put(ArmorItem.Type.HELMET, 3);
                 attribute.put(ArmorItem.Type.BODY, 18);
-            }), 20, 0f, 0f, () -> ModItemClass.AMETHYST.get());
+            }), 22, 0f, 0f, () -> ModItemClass.AMETHYST.get());
 
     public static final Holder<ArmorMaterial> JADE_ARMOR_MATERIAL = register("jade", Util.make(new EnumMap<>(ArmorItem.Type.class),
             attribute -> {
@@ -35,7 +35,7 @@ public class ModArmorMaterials {
                 attribute.put(ArmorItem.Type.CHESTPLATE, 9);
                 attribute.put(ArmorItem.Type.HELMET, 5);
                 attribute.put(ArmorItem.Type.BODY, 26);
-            }), 25, 4f, 0.25f, () -> ModItemClass.JADE.get());
+            }), 22, 4f, 0.25f, () -> ModItemClass.JADE.get());
 
     public static final Holder<ArmorMaterial> IGNIUM_ARMOR_MATERIAL = register("ignium", Util.make(new EnumMap<>(ArmorItem.Type.class),
             attribute -> {
@@ -44,7 +44,7 @@ public class ModArmorMaterials {
                 attribute.put(ArmorItem.Type.CHESTPLATE, 11);
                 attribute.put(ArmorItem.Type.HELMET, 7);
                 attribute.put(ArmorItem.Type.BODY, 34);
-            }), 30, 6f, 0.5f, () -> ModItemClass.IGNIUM_INGOT.get());
+            }), 22, 4.5f, 0.35f, () -> ModItemClass.IGNIUM_INGOT.get());
 
     private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection, int enchantability, float toughness, float knockbackResistance, Supplier<Item> ingredientItem) {
         ResourceLocation location = ResourceLocation.fromNamespaceAndPath(ArcaneWilds.MOD_ID, name);
