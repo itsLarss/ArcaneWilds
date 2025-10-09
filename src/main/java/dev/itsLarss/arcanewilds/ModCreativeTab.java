@@ -26,7 +26,7 @@ public class ModCreativeTab {
 
                         out.accept(ModItemClass.AMETHYST.get());
                         out.accept(ModItemClass.JADE.get());
-                        out.accept(ModItemClass.IGNIUM.get());
+                        out.accept(ModItemClass.IGNIUM_INGOT.get());
 
                         out.accept(ModItemClass.AMETHYST_SWORD.get());
                         out.accept(ModItemClass.AMETHYST_PICKAXE.get());

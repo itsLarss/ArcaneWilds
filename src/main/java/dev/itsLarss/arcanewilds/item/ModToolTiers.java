@@ -15,6 +15,6 @@ public class ModToolTiers {
             ModTags.Blocks.INCORRECT_FOR_AMETHYST_TOOL);
 
     public static final Tier IGNIUM = new ForgeTier(2600, 4, 3f, 20,
-            ModTags.Blocks.NEEDS_IGNIUM_TOOL, () -> Ingredient.of(ModItemClass.IGNIUM.get()),
+            ModTags.Blocks.NEEDS_IGNIUM_TOOL, () -> Ingredient.of(ModItemClass.IGNIUM_INGOT.get()),
             ModTags.Blocks.INCORRECT_FOR_IGNIUM_TOOL);
 }

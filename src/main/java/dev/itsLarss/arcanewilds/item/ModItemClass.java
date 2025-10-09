@@ -87,7 +87,7 @@ public class ModItemClass {
                     new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
 
     public static final RegistryObject<Item> JADE_CHESTPLATE = ITEMS.register("jade_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.AMETHYST_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+            () -> new ArmorItem(ModArmorMaterials.JADE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
                     new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(18))));
 
     public static final RegistryObject<Item> JADE_LEGGINGS = ITEMS.register("jade_leggings",
@@ -121,7 +121,7 @@ public class ModItemClass {
 
 
 
-    public static final RegistryObject<Item> IGNIUM = ITEMS.register("ignium",
+    public static final RegistryObject<Item> IGNIUM_INGOT = ITEMS.register("ignium_ingot",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> IGNIUM_HELMET = ITEMS.register("ignium_helmet",
