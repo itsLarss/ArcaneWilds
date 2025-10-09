@@ -23,17 +23,40 @@ public class ModCreativeTab {
                         out.accept(ModItemClass.RASPBERRY.get());
                         out.accept(ModItemClass.DRAGON_FRUIT.get());
                         out.accept(ModItemClass.GOLDEN_DRAGON_FRUIT.get());
+
                         out.accept(ModItemClass.AMETHYST.get());
-                        out.accept(ModItemClass.AMETHYST_HELMET.get());
-                        out.accept(ModItemClass.AMETHYST_CHESTPLATE.get());
-                        out.accept(ModItemClass.AMETHYST_LEGGINGS.get());
-                        out.accept(ModItemClass.AMETHYST_BOOTS.get());
                         out.accept(ModItemClass.JADE.get());
+                        out.accept(ModItemClass.IGNIUM.get());
+
+                        out.accept(ModItemClass.AMETHYST_SWORD.get());
+                        out.accept(ModItemClass.AMETHYST_PICKAXE.get());
+                        out.accept(ModItemClass.AMETHYST_AXE.get());
+                        out.accept(ModItemClass.AMETHYST_SHOVEL.get());
+                        out.accept(ModItemClass.AMETHYST_HOE.get());
                         out.accept(ModItemClass.JADE_SWORD.get());
                         out.accept(ModItemClass.JADE_PICKAXE.get());
                         out.accept(ModItemClass.JADE_AXE.get());
                         out.accept(ModItemClass.JADE_SHOVEL.get());
                         out.accept(ModItemClass.JADE_HOE.get());
+                        out.accept(ModItemClass.IGNIUM_SWORD.get());
+                        out.accept(ModItemClass.IGNIUM_PICKAXE.get());
+                        out.accept(ModItemClass.IGNIUM_AXE.get());
+                        out.accept(ModItemClass.IGNIUM_SHOVEL.get());
+                        out.accept(ModItemClass.IGNIUM_HOE.get());
+
+                        out.accept(ModItemClass.AMETHYST_HELMET.get());
+                        out.accept(ModItemClass.AMETHYST_CHESTPLATE.get());
+                        out.accept(ModItemClass.AMETHYST_LEGGINGS.get());
+                        out.accept(ModItemClass.AMETHYST_BOOTS.get());
+                        out.accept(ModItemClass.JADE_HELMET.get());
+                        out.accept(ModItemClass.JADE_CHESTPLATE.get());
+                        out.accept(ModItemClass.JADE_LEGGINGS.get());
+                        out.accept(ModItemClass.JADE_BOOTS.get());
+                        out.accept(ModItemClass.IGNIUM_HELMET.get());
+                        out.accept(ModItemClass.IGNIUM_CHESTPLATE.get());
+                        out.accept(ModItemClass.IGNIUM_LEGGINGS.get());
+                        out.accept(ModItemClass.IGNIUM_BOOTS.get());
+
 
                     }).build());
 

@@ -56,8 +56,48 @@ public class ModItemClass {
             () -> new ArmorItem(ModArmorMaterials.AMETHYST_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
 
+
+    public static final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword",
+            () -> new SwordItem(ModToolTiers.AMETHYST, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.AMETHYST, 5, -2.4f))));
+
+    public static final RegistryObject<Item> AMETHYST_PICKAXE = ITEMS.register("amethyst_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.AMETHYST, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.AMETHYST, 3, -2.8f))));
+
+    public static final RegistryObject<Item> AMETHYST_AXE = ITEMS.register("amethyst_axe",
+            () -> new AxeItem(ModToolTiers.AMETHYST, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.AMETHYST, 7, -2.4f))));
+
+    public static final RegistryObject<Item> AMETHYST_SHOVEL = ITEMS.register("amethyst_shovel",
+            () -> new ShovelItem(ModToolTiers.AMETHYST, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.AMETHYST, 5.5f, -3f))));
+
+    public static final RegistryObject<Item> AMETHYST_HOE = ITEMS.register("amethyst_hoe",
+            () -> new HoeItem(ModToolTiers.AMETHYST, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.AMETHYST, 0, 0))));
+
+
+
     public static final RegistryObject<Item> JADE = ITEMS.register("jade",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> JADE_HELMET = ITEMS.register("jade_helmet",
+            () -> new ArmorItem(ModArmorMaterials.JADE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
+
+    public static final RegistryObject<Item> JADE_CHESTPLATE = ITEMS.register("jade_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.AMETHYST_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(18))));
+
+    public static final RegistryObject<Item> JADE_LEGGINGS = ITEMS.register("jade_leggings",
+            () -> new ArmorItem(ModArmorMaterials.JADE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(18))));
+
+    public static final RegistryObject<Item> JADE_BOOTS = ITEMS.register("jade_boots",
+            () -> new ArmorItem(ModArmorMaterials.JADE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
+
 
     public static final RegistryObject<Item> JADE_SWORD = ITEMS.register("jade_sword",
             () -> new SwordItem(ModToolTiers.JADE, new Item.Properties()
@@ -83,6 +123,42 @@ public class ModItemClass {
 
     public static final RegistryObject<Item> IGNIUM = ITEMS.register("ignium",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> IGNIUM_HELMET = ITEMS.register("ignium_helmet",
+            () -> new ArmorItem(ModArmorMaterials.IGNIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
+
+    public static final RegistryObject<Item> IGNIUM_CHESTPLATE = ITEMS.register("ignium_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.IGNIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(18))));
+
+    public static final RegistryObject<Item> IGNIUM_LEGGINGS = ITEMS.register("ignium_leggings",
+            () -> new ArmorItem(ModArmorMaterials.IGNIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(18))));
+
+    public static final RegistryObject<Item> IGNIUM_BOOTS = ITEMS.register("ignium_boots",
+            () -> new ArmorItem(ModArmorMaterials.IGNIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
+
+    public static final RegistryObject<Item> IGNIUM_SWORD = ITEMS.register("ignium_sword",
+            () -> new SwordItem(ModToolTiers.IGNIUM, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.IGNIUM, 9, -2.4f))));
+
+    public static final RegistryObject<Item> IGNIUM_PICKAXE = ITEMS.register("ignium_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.IGNIUM, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.IGNIUM, 6, -2.8f))));
+
+    public static final RegistryObject<Item> IGNIUM_AXE = ITEMS.register("ignium_axe",
+            () -> new AxeItem(ModToolTiers.IGNIUM, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.IGNIUM, 11, -2.4f))));
+
+    public static final RegistryObject<Item> IGNIUM_SHOVEL = ITEMS.register("ignium_shovel",
+            () -> new ShovelItem(ModToolTiers.IGNIUM, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.IGNIUM, 7.5f, -3f))));
+
+    public static final RegistryObject<Item> IGNIUM_HOE = ITEMS.register("ignium_hoe",
+            () -> new HoeItem(ModToolTiers.IGNIUM, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.IGNIUM, 1, 0))));
 
 
 
