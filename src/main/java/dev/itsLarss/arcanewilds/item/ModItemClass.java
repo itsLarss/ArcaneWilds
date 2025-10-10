@@ -16,7 +16,7 @@ public class ModItemClass {
             () -> new Item(new Item.Properties().stacksTo(64)));
      **/
 
-    public static final RegistryObject<Item> BLACKBERRY = ITEMS.register("blackberry",
+    /*public static final RegistryObject<Item> BLACKBERRY = ITEMS.register("blackberry",
             () -> new Item(new Item.Properties().food(ModFoodProperties.BLACKBERRY)));
 
     public static final RegistryObject<Item> BLUEBERRY = ITEMS.register("blueberry",
@@ -35,7 +35,9 @@ public class ModItemClass {
             () -> new Item(new Item.Properties().food(ModFoodProperties.DRAGON_FRUIT)));
 
     public static final RegistryObject<Item> GOLDEN_DRAGON_FRUIT = ITEMS.register("golden_dragon_fruit",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.GOLDEN_DRAGON_FRUIT)));
+            () -> new Item(new Item.Properties().food(ModFoodProperties.GOLDEN_DRAGON_FRUIT)));*/
+
+
 
     public static final RegistryObject<Item> AMETHYST = ITEMS.register("amethyst",
             () -> new Item(new Item.Properties()));

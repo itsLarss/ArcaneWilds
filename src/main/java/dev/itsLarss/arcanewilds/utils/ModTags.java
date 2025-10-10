@@ -26,6 +26,7 @@ public class ModTags {
 
     public static class Items {
 
+
     public static TagKey<Item> createTag(String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(ArcaneWilds.MOD_ID, name));
         }

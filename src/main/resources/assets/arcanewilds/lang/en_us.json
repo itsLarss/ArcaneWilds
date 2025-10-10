@@ -1,5 +1,40 @@
 {
-  "item.arcanewilds.test_item": "Arcane Test Item",
+  "item.arcanewilds.amethyst": "Amethyst",
+  "item.arcanewilds.jade": "Jade",
+  "item.arcanewilds.ignium_ingot": "Ignium Ingot",
+
+  "item.arcanewilds.amethyst_sword": "Amethyst Sword",
+  "item.arcanewilds.amethyst_axe": "Amethyst Axe",
+  "item.arcanewilds.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.arcanewilds.amethyst_shovel": "Amethyst Shovel",
+  "item.arcanewilds.amethyst_hoe": "Amethyst Hoe",
+
+  "item.arcanewilds.jade_sword": "Jade Sword",
+  "item.arcanewilds.jade_axe": "Jade Axe",
+  "item.arcanewilds.jade_pickaxe": "Jade Pickaxe",
+  "item.arcanewilds.jade_shovel": "Jade Shovel",
+  "item.arcanewilds.jade_hoe": "Jade Hoe",
+
+  "item.arcanewilds.ignium_sword": "Ignium Sword",
+  "item.arcanewilds.ignium_axe": "Ignium Axe",
+  "item.arcanewilds.ignium_pickaxe": "Ignium Pickaxe",
+  "item.arcanewilds.ignium_shovel": "Ignium Shovel",
+  "item.arcanewilds.ignium_hoe": "Ignium Hoe",
+
+  "item.arcanewilds.amethyst_helmet": "Amethyst Helmet",
+  "item.arcanewilds.amethyst_chestplate": "Amethyst Chestplate",
+  "item.arcanewilds.amethyst_leggings": "Amethyst Leggings",
+  "item.arcanewilds.amethyst_boots": "Amethyst Boots",
+
+  "item.arcanewilds.jade_helmet": "Jade Helmet",
+  "item.arcanewilds.jade_chestplate": "Jade Chestplate",
+  "item.arcanewilds.jade_leggings": "Jade Leggings",
+  "item.arcanewilds.jade_boots": "Jade Boots",
+
+  "item.arcanewilds.ignium_helmet": "Ignium Helmet",
+  "item.arcanewilds.ignium_chestplate": "Ignium Chestplate",
+  "item.arcanewilds.ignium_leggings": "Ignium Leggings",
+  "item.arcanewilds.ignium_boots": "Ignium Boots",
 
   "block.arcanewilds.test_block": "Arcane Test Bock",
 
