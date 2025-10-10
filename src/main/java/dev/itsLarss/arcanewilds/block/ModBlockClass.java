@@ -21,7 +21,7 @@ public class ModBlockClass {
 
     public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3f).requiresCorrectToolForDrops()));
+                    .strength(3f).requiresCorrectToolForDrops().noLootTable()));
 
 
 
