@@ -14,6 +14,12 @@ import net.minecraft.world.item.enchantment.Enchantment;
 
 public class ModEnchantments {
 
+    public static final Enchantment DRILL_POWER = Registry.register(
+            Registry.ENCHANTMENT,
+            new ResourceLocation("arcanewilds", "drill_power"),
+            new DrillPowerEnchantment(Enchantment.Rarity.UNCOMMON, EquipmentSlot.MAINHAND)
+    );
+
     private static void register(BootstrapContext<Enchantment> registry, ResourceKey<Enchantment> key, Enchantment.Builder builder) {
         registry.register(key, builder.build(key.location()));
     }
