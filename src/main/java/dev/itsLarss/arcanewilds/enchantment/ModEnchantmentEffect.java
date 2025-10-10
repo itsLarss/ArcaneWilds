@@ -13,8 +13,6 @@ public class ModEnchantmentEffect {
     public static final DeferredRegister<MapCodec<? extends EnchantmentEntityEffect>> ENTITY_ENCHANTMENT_EFFECTS =
             DeferredRegister.create(Registries.ENCHANTMENT_ENTITY_EFFECT_TYPE, ArcaneWilds.MOD_ID);
 
-    public static final RegistryObject<MapCodec<? extends EnchantmentEntityEffect>> DRILL_POWER =
-            ENTITY_ENCHANTMENT_EFFECTS.register("drill_power", () -> AreaMiningBlockBreakHandler.CODEC);
 
 
     public static void register(IEventBus eventBus) {
