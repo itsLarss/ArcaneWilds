@@ -2,7 +2,7 @@ package dev.itsLarss.arcanewilds.enchantment;
 
 import com.mojang.serialization.MapCodec;
 import dev.itsLarss.arcanewilds.ArcaneWilds;
-import dev.itsLarss.arcanewilds.enchantment.custom.AreaMiningEchantmentEffect;
+import dev.itsLarss.arcanewilds.enchantment.custom.AreaMiningBlockBreakHandler;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.enchantment.effects.EnchantmentEntityEffect;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -13,8 +13,8 @@ public class ModEnchantmentEffect {
     public static final DeferredRegister<MapCodec<? extends EnchantmentEntityEffect>> ENTITY_ENCHANTMENT_EFFECTS =
             DeferredRegister.create(Registries.ENCHANTMENT_ENTITY_EFFECT_TYPE, ArcaneWilds.MOD_ID);
 
-    public static final RegistryObject<MapCodec<? extends EnchantmentEntityEffect>> DRILL_POWER_EFFECT =
-            ENTITY_ENCHANTMENT_EFFECTS.register("drill_power_effect", () -> AreaMiningEchantmentEffect.CODEC);
+    public static final RegistryObject<MapCodec<? extends EnchantmentEntityEffect>> DRILL_POWER =
+            ENTITY_ENCHANTMENT_EFFECTS.register("drill_power", () -> AreaMiningBlockBreakHandler.CODEC);
 
 
     public static void register(IEventBus eventBus) {
