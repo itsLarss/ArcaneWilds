@@ -2,10 +2,7 @@ package dev.itsLarss.arcanewilds;
 
 import com.mojang.logging.LogUtils;
 import dev.itsLarss.arcanewilds.block.ModBlockClass;
-import dev.itsLarss.arcanewilds.enchantment.ModEnchantmentEffect;
-import dev.itsLarss.arcanewilds.enchantment.ModEnchantments;
 import dev.itsLarss.arcanewilds.item.ModItemClass;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -40,7 +37,6 @@ public class ArcaneWilds
         ModItemClass.register(modEventBus);
         ModBlockClass.register(modEventBus);
 
-        ModEnchantmentEffect.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
