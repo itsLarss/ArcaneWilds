@@ -18,6 +18,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         /**
          * blockWithItem(ModBlockClass.TEST_BLOCK);
          **/
+
+        blockWithItem(ModBlockClass.JADEIT_ORE);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

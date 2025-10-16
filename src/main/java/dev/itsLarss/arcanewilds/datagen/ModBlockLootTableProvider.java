@@ -1,6 +1,7 @@
 package dev.itsLarss.arcanewilds.datagen;
 
 import dev.itsLarss.arcanewilds.block.ModBlockClass;
+import dev.itsLarss.arcanewilds.item.ModItemClass;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.loot.BlockLootSubProvider;
@@ -33,6 +34,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
          * this.add(ModBlocks.ALEXANDRITE_ORE.get(),
          *         block -> createOreDrop(ModBlocks.ALEXANDRITE_ORE.get(), ModItems.RAW_ALEXANDRITE.get()));
          **/
+
+        this.add(ModBlockClass.JADEIT_ORE.get(),
+                block -> createOreDrop(ModBlockClass.JADEIT_ORE.get(), ModItemClass.RAW_JADEIT.get()));
 
     }
 

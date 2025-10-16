@@ -38,6 +38,9 @@ public class ModItemClass {
     public static final RegistryObject<Item> GOLDEN_DRAGON_FRUIT = ITEMS.register("golden_dragon_fruit",
             () -> new Item(new Item.Properties().food(ModFoodProperties.GOLDEN_DRAGON_FRUIT)));*/
 
+    public static final RegistryObject<Item> RAW_JADEIT = ITEMS.register("raw_jadeit",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> WORLD_EATER = ITEMS.register("world_eater",
             () -> new WorldEater(ModToolTiers.IGNIUM, new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.IGNIUM, 10, -3.2f))));

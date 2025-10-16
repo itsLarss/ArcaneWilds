@@ -21,5 +21,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         /**tag(BlockTags.MINEABLE_WITH_PICKAXE)
          * .add(ModBlockClass.TEST_BLOCK.get());
          **/
+        tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(ModBlockClass.JADEIT_ORE.get());
     }
 }

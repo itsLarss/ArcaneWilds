@@ -19,9 +19,9 @@ public class ModBlockClass {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, ArcaneWilds.MOD_ID);
 
-    public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block",
+    public static final RegistryObject<Block> JADEIT_ORE = registerBlock("jadeit_ore",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3f).requiresCorrectToolForDrops().noLootTable()));
+                    .strength(3f).requiresCorrectToolForDrops()));
 
 
 
