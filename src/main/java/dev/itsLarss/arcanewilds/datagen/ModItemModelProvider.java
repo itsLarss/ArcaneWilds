@@ -41,10 +41,11 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(ModItemClass.AMETHYST.get());
-
         basicItem(ModItemClass.JADE.get());
         basicItem(ModItemClass.RAW_JADEIT.get());
         basicItem(ModItemClass.IGNIUM_INGOT.get());
+
+        handheldItem(ModItemClass.WORLD_EATER);
 
         handheldItem(ModItemClass.AMETHYST_SWORD);
         handheldItem(ModItemClass.AMETHYST_AXE);

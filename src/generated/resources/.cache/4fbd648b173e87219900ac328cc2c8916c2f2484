@@ -1,4 +1,4 @@
-// 1.21.1	2025-10-10T15:08:34.0504867	Item Models: arcanewilds
+// 1.21.1	2025-10-17T11:02:54.9201041	Item Models: arcanewilds
 c5a0e7e7ec67f01043bec325b4173dabdb0bf94d assets/arcanewilds/models/item/amethyst.json
 28338117ff65590b405a4857e515c210e9a7a121 assets/arcanewilds/models/item/amethyst_axe.json
 0b54e1ea90438c62b06a17383487f751626faad6 assets/arcanewilds/models/item/amethyst_boots.json
@@ -149,3 +149,5 @@ a2c762893faac84f68573b3b1d0af612e427022e assets/arcanewilds/models/item/jade_leg
 66a4d57a266ef94152a64a95cbfb489d7dd95227 assets/arcanewilds/models/item/jade_pickaxe.json
 08670aca8ed07ff205ea54d98f098ab1497986bb assets/arcanewilds/models/item/jade_shovel.json
 f6e0844604ead1d6c6421bd6d23d90a8a9b69f49 assets/arcanewilds/models/item/jade_sword.json
+a913a9409680af0184e769684cfcfab5a91fbc8e assets/arcanewilds/models/item/raw_jadeit.json
+2fe7b57034b12e1b466ac30c93bd648059148522 assets/arcanewilds/models/item/world_eater.json
