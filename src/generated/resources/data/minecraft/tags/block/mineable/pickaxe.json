@@ -1,5 +1,12 @@
 {
   "values": [
-    "arcanewilds:jadeit_ore"
+    "arcanewilds:amethyst_ore",
+    "arcanewilds:amethyst_deepslate_ore",
+    "arcanewilds:jadeit_ore",
+    "arcanewilds:jadeit_deepslate_ore",
+    "arcanewilds:ignium_ore",
+    "arcanewilds:amethyst_block",
+    "arcanewilds:jade_block",
+    "arcanewilds:ignium_block"
   ]
 }

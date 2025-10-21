@@ -19,7 +19,16 @@ public class ModBlockStateProvider extends BlockStateProvider {
          * blockWithItem(ModBlockClass.TEST_BLOCK);
          **/
 
+        blockWithItem(ModBlockClass.AMETHYST_ORE);
         blockWithItem(ModBlockClass.JADEIT_ORE);
+        blockWithItem(ModBlockClass.IGNIUM_ORE);
+
+        blockWithItem(ModBlockClass.AMETHYST_DEEPSLATE_ORE);
+        blockWithItem(ModBlockClass.JADEIT_DEEPSLATE_ORE);
+
+        blockWithItem(ModBlockClass.AMETHYST_BLOCK);
+        blockWithItem(ModBlockClass.JADE_BLOCK);
+        blockWithItem(ModBlockClass.IGNIUM_BLOCK);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

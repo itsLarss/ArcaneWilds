@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 400,
+  "experience": 0.35,
+  "group": "jade",
+  "ingredient": {
+    "item": "arcanewilds:raw_jadeit"
+  },
+  "result": {
+    "id": "arcanewilds:jade"
+  }
+}

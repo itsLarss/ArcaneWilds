@@ -35,8 +35,23 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
          *         block -> createOreDrop(ModBlocks.ALEXANDRITE_ORE.get(), ModItems.RAW_ALEXANDRITE.get()));
          **/
 
+        dropSelf(ModBlockClass.AMETHYST_BLOCK.get());
+        dropSelf(ModBlockClass.JADE_BLOCK.get());
+        dropSelf(ModBlockClass.IGNIUM_BLOCK.get());
+
+        this.add(ModBlockClass.AMETHYST_ORE.get(),
+                block -> createOreDrop(ModBlockClass.AMETHYST_ORE.get(), ModItemClass.AMETHYST.get()));
+
+        this.add(ModBlockClass.AMETHYST_DEEPSLATE_ORE.get(),
+                block -> createOreDrop(ModBlockClass.AMETHYST_DEEPSLATE_ORE.get(), ModItemClass.AMETHYST.get()));
+
         this.add(ModBlockClass.JADEIT_ORE.get(),
-                block -> createOreDrop(ModBlockClass.JADEIT_ORE.get(), ModItemClass.RAW_JADEIT.get()));
+                block -> createMultipleOreDrops(ModBlockClass.JADEIT_ORE.get(), ModItemClass.RAW_JADEIT.get(), 1, 3));
+
+        this.add(ModBlockClass.JADEIT_DEEPSLATE_ORE.get(),
+                block -> createMultipleOreDrops(ModBlockClass.JADEIT_DEEPSLATE_ORE.get(), ModItemClass.RAW_JADEIT.get(), 1, 3));
+
+        dropSelf(ModBlockClass.IGNIUM_ORE.get());
 
     }
 

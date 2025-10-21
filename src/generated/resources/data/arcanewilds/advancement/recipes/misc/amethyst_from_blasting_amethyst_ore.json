@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_amethyst_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arcanewilds:amethyst_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arcanewilds:amethyst_from_blasting_amethyst_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_amethyst_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arcanewilds:amethyst_from_blasting_amethyst_ore"
+    ]
+  }
+}

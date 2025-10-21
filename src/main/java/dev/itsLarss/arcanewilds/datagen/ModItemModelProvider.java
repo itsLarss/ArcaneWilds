@@ -43,9 +43,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItemClass.AMETHYST.get());
         basicItem(ModItemClass.JADE.get());
         basicItem(ModItemClass.RAW_JADEIT.get());
+        basicItem(ModItemClass.RAW_IGNIUM.get());
         basicItem(ModItemClass.IGNIUM_INGOT.get());
 
-        handheldItem(ModItemClass.WORLD_EATER);
+        handheldItem(ModItemClass.HAMMER);
 
         handheldItem(ModItemClass.AMETHYST_SWORD);
         handheldItem(ModItemClass.AMETHYST_AXE);

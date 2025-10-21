@@ -6,6 +6,7 @@ import dev.itsLarss.arcanewilds.block.ModBlockClass;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
@@ -41,6 +42,68 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         oreSmelting(pRecipeOutput, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 0.25f, 200, "alexandrite");
         oreBlasting(pRecipeOutput, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 0.25f, 100, "alexandrite");*/
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItemClass.IGNIUM_INGOT.get())
+                .pattern(" NN")
+                .pattern("NNA")
+                .pattern("AAA")
+                .define('A', ModItemClass.RAW_IGNIUM.get())
+                .define('N', Items.NETHERITE_INGOT)
+                .unlockedBy(getHasName(ModItemClass.RAW_IGNIUM.get()), has(ModItemClass.IGNIUM_INGOT.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlockClass.AMETHYST_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItemClass.AMETHYST.get())
+                .unlockedBy(getHasName(ModItemClass.AMETHYST.get()), has(ModItemClass.AMETHYST.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlockClass.JADE_BLOCK.get())
+                .pattern("JJJ")
+                .pattern("JJJ")
+                .pattern("JJJ")
+                .define('J', ModItemClass.JADE.get())
+                .unlockedBy(getHasName(ModItemClass.JADE.get()), has(ModItemClass.JADE.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlockClass.IGNIUM_BLOCK.get())
+                .pattern("III")
+                .pattern("III")
+                .pattern("III")
+                .define('I', ModItemClass.IGNIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItemClass.IGNIUM_INGOT.get()), has(ModItemClass.IGNIUM_INGOT.get())).save(pRecipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItemClass.AMETHYST.get(), 9)
+                .requires(ModBlockClass.AMETHYST_BLOCK.get())
+                .unlockedBy(getHasName(ModBlockClass.AMETHYST_BLOCK.get()), has(ModBlockClass.AMETHYST_BLOCK.get()))
+                .save(pRecipeOutput, ArcaneWilds.MOD_ID + ":amethyst_from_amethyst_block");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItemClass.JADE.get(), 9)
+                .requires(ModBlockClass.JADE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlockClass.JADE_BLOCK.get()), has(ModBlockClass.JADE_BLOCK.get()))
+                .save(pRecipeOutput, ArcaneWilds.MOD_ID + ":jade_from_jade_block");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItemClass.IGNIUM_INGOT.get(), 9)
+                .requires(ModBlockClass.IGNIUM_BLOCK.get())
+                .unlockedBy(getHasName(ModBlockClass.IGNIUM_BLOCK.get()), has(ModBlockClass.IGNIUM_BLOCK.get()))
+                .save(pRecipeOutput, ArcaneWilds.MOD_ID + ":ignium_ingot_from_ignium_block");
+
+        List<ItemLike> AMETHYST_SMELTABLES = List.of(ModItemClass.AMETHYST.get(),
+                ModBlockClass.AMETHYST_ORE.get(), ModBlockClass.AMETHYST_DEEPSLATE_ORE.get());
+
+        List<ItemLike> JADE_SMELTABLES = List.of(ModItemClass.RAW_JADEIT.get(),
+                ModBlockClass.JADEIT_ORE.get(), ModBlockClass.JADEIT_DEEPSLATE_ORE.get());
+
+        List<ItemLike> IGNIUM_SMELTABLES = List.of(ModItemClass.RAW_IGNIUM.get(),
+                ModBlockClass.IGNIUM_ORE.get());
+
+        oreSmelting(pRecipeOutput, AMETHYST_SMELTABLES, RecipeCategory.MISC, ModItemClass.AMETHYST.get(), 0.25f, 200, "amethyst");
+        oreBlasting(pRecipeOutput, AMETHYST_SMELTABLES, RecipeCategory.MISC, ModItemClass.AMETHYST.get(), 0.25f, 100, "amethyst");
+
+        oreSmelting(pRecipeOutput, JADE_SMELTABLES, RecipeCategory.MISC, ModItemClass.JADE.get(), 0.35f, 400, "jade");
+        oreBlasting(pRecipeOutput, JADE_SMELTABLES, RecipeCategory.MISC, ModItemClass.JADE.get(), 0.35f, 200, "jade");
+
+        oreSmelting(pRecipeOutput, IGNIUM_SMELTABLES, RecipeCategory.MISC, ModItemClass.RAW_IGNIUM.get(), 0.45f, 600, "ignium");
+        oreBlasting(pRecipeOutput, IGNIUM_SMELTABLES, RecipeCategory.MISC, ModItemClass.RAW_IGNIUM.get(), 0.45f, 300, "ignium");
 
     }
 

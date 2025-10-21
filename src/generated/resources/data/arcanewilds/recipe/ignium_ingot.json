@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "arcanewilds:raw_ignium"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    " NN",
+    "NNA",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arcanewilds:ignium_ingot"
+  }
+}

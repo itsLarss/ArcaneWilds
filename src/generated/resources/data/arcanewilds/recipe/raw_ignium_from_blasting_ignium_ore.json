@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.45,
+  "group": "ignium",
+  "ingredient": {
+    "item": "arcanewilds:ignium_ore"
+  },
+  "result": {
+    "id": "arcanewilds:raw_ignium"
+  }
+}

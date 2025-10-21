@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "arcanewilds:ignium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "arcanewilds:ignium_ingot"
+  }
+}

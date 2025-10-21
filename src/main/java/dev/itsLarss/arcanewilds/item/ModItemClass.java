@@ -41,6 +41,9 @@ public class ModItemClass {
     public static final RegistryObject<Item> RAW_JADEIT = ITEMS.register("raw_jadeit",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> RAW_IGNIUM = ITEMS.register("raw_ignium",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> HAMMER = ITEMS.register("hammer",
             () -> new HammerItem(ModToolTiers.IGNIUM, new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.IGNIUM, 10, -3.2f))));

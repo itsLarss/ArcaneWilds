@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 600,
+  "experience": 0.45,
+  "group": "ignium",
+  "ingredient": {
+    "item": "arcanewilds:raw_ignium"
+  },
+  "result": {
+    "id": "arcanewilds:raw_ignium"
+  }
+}
