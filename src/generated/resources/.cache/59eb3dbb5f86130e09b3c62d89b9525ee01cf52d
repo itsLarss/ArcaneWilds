@@ -1,2 +1,9 @@
-// 1.21.1	2025-10-17T11:02:54.9271829	Loot Tables
-6d7f28f17253f503b6c2d0e454d2444ef41290a6 data/arcanewilds/loot_table/blocks/jadeit_ore.json
+// 1.21.1	2025-10-21T18:10:17.4602503	Loot Tables
+a4b5cb653df386b3264244ed9c24624665cd2a55 data/arcanewilds/loot_table/blocks/amethyst_block.json
+c3b2496a91f54cf36455bbd7c908c44a3e596815 data/arcanewilds/loot_table/blocks/amethyst_deepslate_ore.json
+8390e53e20401d76e381722ef0c642c22ef2e179 data/arcanewilds/loot_table/blocks/amethyst_ore.json
+18edae1fd0b80869a7c02574fc7bf9f320b256ab data/arcanewilds/loot_table/blocks/ignium_block.json
+83e5c018aa8fcfa6d7825199380a6ddfa36cec13 data/arcanewilds/loot_table/blocks/ignium_ore.json
+9f90a8d2b3beb7e1afb877190569524aa4991f28 data/arcanewilds/loot_table/blocks/jadeit_deepslate_ore.json
+8490516c87289ca5c7e34305ae50d8f0f97d354e data/arcanewilds/loot_table/blocks/jadeit_ore.json
+1b05167600fac08dfa9f6b568833d0e16914ce81 data/arcanewilds/loot_table/blocks/jade_block.json

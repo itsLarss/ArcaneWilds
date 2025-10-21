@@ -1,4 +1,4 @@
-// 1.21.1	2025-10-17T11:02:54.9201041	Item Models: arcanewilds
+// 1.21.1	2025-10-21T17:29:01.3362621	Item Models: arcanewilds
 c5a0e7e7ec67f01043bec325b4173dabdb0bf94d assets/arcanewilds/models/item/amethyst.json
 28338117ff65590b405a4857e515c210e9a7a121 assets/arcanewilds/models/item/amethyst_axe.json
 0b54e1ea90438c62b06a17383487f751626faad6 assets/arcanewilds/models/item/amethyst_boots.json
@@ -49,6 +49,7 @@ c6cc7b9fd947c9c646aa30c29d7d06f5eb623f83 assets/arcanewilds/models/item/amethyst
 8bc1c9ff07c75907545b84d992ce09ced8f31b23 assets/arcanewilds/models/item/amethyst_pickaxe.json
 691f4d1d20e71c769099d7ea05d15716b475c4fa assets/arcanewilds/models/item/amethyst_shovel.json
 34d875f2f89ec12928bc6d1260ff9162df719fee assets/arcanewilds/models/item/amethyst_sword.json
+83a72274d0f223f19d9072ea5fb6fa7ad788f208 assets/arcanewilds/models/item/hammer.json
 b84cc42b5dc7e745fc1675e1eb93a4b46025ca4a assets/arcanewilds/models/item/ignium_axe.json
 e8bc3eec22e2dd65881a3c5b8f2331bf93e61350 assets/arcanewilds/models/item/ignium_boots.json
 0793c3445202bef4e7a9618f997f2ccef7bb6718 assets/arcanewilds/models/item/ignium_boots_amethyst_trim.json
@@ -149,5 +150,5 @@ a2c762893faac84f68573b3b1d0af612e427022e assets/arcanewilds/models/item/jade_leg
 66a4d57a266ef94152a64a95cbfb489d7dd95227 assets/arcanewilds/models/item/jade_pickaxe.json
 08670aca8ed07ff205ea54d98f098ab1497986bb assets/arcanewilds/models/item/jade_shovel.json
 f6e0844604ead1d6c6421bd6d23d90a8a9b69f49 assets/arcanewilds/models/item/jade_sword.json
+8bfec4d6d2d4d41f2c925050f542986c1ad92af5 assets/arcanewilds/models/item/raw_ignium.json
 a913a9409680af0184e769684cfcfab5a91fbc8e assets/arcanewilds/models/item/raw_jadeit.json
-2fe7b57034b12e1b466ac30c93bd648059148522 assets/arcanewilds/models/item/world_eater.json

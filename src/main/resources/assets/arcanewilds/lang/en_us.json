@@ -1,6 +1,8 @@
 {
   "item.arcanewilds.amethyst": "Amethyst",
+  "item.arcanewilds.raw_jade": "Raw Jade",
   "item.arcanewilds.jade": "Jade",
+  "item.arcanewilds.raw_ignium": "Raw Ignium Metal",
   "item.arcanewilds.ignium_ingot": "Ignium Ingot",
 
   "item.arcanewilds.hammer": "§dHammer",
@@ -38,9 +40,15 @@
   "item.arcanewilds.ignium_leggings": "Ignium Leggings",
   "item.arcanewilds.ignium_boots": "Ignium Boots",
 
-  "block.arcanewilds.test_block": "Arcane Test Bock",
+  "block.arcanewilds.amethyst_block": "Block of Amethyst",
+  "block.arcanewilds.jade_block": "Block of Jade",
+  "block.arcanewilds.ignium_block": "Block of Ignium",
 
-  "enchantment.arcanewilds.drill_power": "Drill Power",
+  "block.arcanewilds.amethyst_ore": "Amethyst Ore",
+  "block.arcanewilds.amethyst_deepslate_ore": "Deepslate Amethyst Ore",
+  "block.arcanewilds.jadeit_ore": "Jadeit Ore",
+  "block.arcanewilds.jadeit_deepslate_ore": "Deepslate Jade Ore",
+  "block.arcanewilds.ignium_ore": "Ignium Ore",
 
   "creative.arcane.wilds.tab": "Arcane Wilds"
 }

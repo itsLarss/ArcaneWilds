@@ -1,27 +1,27 @@
-[17Okt.2025 11:03:09.852] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\lars.schlich\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, arcanewilds, --all, --output, C:\Users\lars.schlich\IdeaProjects\ArcaneWilds\src\generated\resources, --existing, C:\Users\lars.schlich\IdeaProjects\ArcaneWilds\src\main\resources]
-[17Okt.2025 11:03:09.860] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.8+9-LTS
-[17Okt.2025 11:03:09.860] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.8 by Microsoft; OS Windows 11 arch amd64 version 10.0
-[17Okt.2025 11:03:10.097] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[17Okt.2025 11:03:10.442] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/lars.schlich/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[17Okt.2025 11:03:12.685] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[17Okt.2025 11:03:14.736] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\lars.schlich\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, arcanewilds, --all, --output, C:\Users\lars.schlich\IdeaProjects\ArcaneWilds\src\generated\resources, --existing, C:\Users\lars.schlich\IdeaProjects\ArcaneWilds\src\main\resources]
-[17Okt.2025 11:03:27.430] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.1.0, for MC 1.21.1 with MCP 20240808.132146
-[17Okt.2025 11:03:27.432] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.1.0 Initialized
-[17Okt.2025 11:03:27.521] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[17Okt.2025 11:03:28.656] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [arcanewilds]
-[17Okt.2025 11:03:28.823] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/lars.schlich/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1/forge-1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[17Okt.2025 11:03:28.825] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/lars.schlich/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1/forge-1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
-[17Okt.2025 11:03:29.222] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[17Okt.2025 11:03:29.713] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 489 ms
-[17Okt.2025 11:03:29.715] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[17Okt.2025 11:03:29.719] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 2 ms
-[17Okt.2025 11:03:29.719] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id arcanewilds
-[17Okt.2025 11:03:29.733] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id arcanewilds finished after 14 ms
-[17Okt.2025 11:03:29.734] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id arcanewilds
-[17Okt.2025 11:03:29.734] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id arcanewilds finished after 2 ms
-[17Okt.2025 11:03:29.734] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: arcanewilds
-[17Okt.2025 11:03:29.992] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: arcanewilds finished after 254 ms
-[17Okt.2025 11:03:29.994] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: arcanewilds
-[17Okt.2025 11:03:30.228] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: arcanewilds finished after 234 ms
-[17Okt.2025 11:03:30.228] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 1009 ms
-[17Okt.2025 11:03:30.240] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 158, old count: 158, new count: 159, removed stale: 0, written: 0
+[21Okt.2025 18:33:54.431] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\larss\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, arcanewilds, --all, --output, C:\Users\larss\IdeaProjects\ArcaneWilds\src\generated\resources, --existing, C:\Users\larss\IdeaProjects\ArcaneWilds\src\main\resources]
+[21Okt.2025 18:33:54.433] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as JetBrains s.r.o. OpenJDK 64-Bit Server VM 21.0.8+9-b1148.57
+[21Okt.2025 18:33:54.433] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.8 by JetBrains s.r.o.; OS Windows 11 arch amd64 version 10.0
+[21Okt.2025 18:33:54.513] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[21Okt.2025 18:33:54.584] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/larss/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[21Okt.2025 18:33:55.082] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[21Okt.2025 18:33:55.590] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\larss\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, arcanewilds, --all, --output, C:\Users\larss\IdeaProjects\ArcaneWilds\src\generated\resources, --existing, C:\Users\larss\IdeaProjects\ArcaneWilds\src\main\resources]
+[21Okt.2025 18:33:58.941] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.1.0, for MC 1.21.1 with MCP 20240808.132146
+[21Okt.2025 18:33:58.941] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.1.0 Initialized
+[21Okt.2025 18:33:58.960] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[21Okt.2025 18:33:59.122] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [arcanewilds]
+[21Okt.2025 18:33:59.153] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/larss/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1/forge-1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[21Okt.2025 18:33:59.154] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/larss/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1/forge-1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[21Okt.2025 18:33:59.231] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[21Okt.2025 18:33:59.354] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 122 ms
+[21Okt.2025 18:33:59.354] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[21Okt.2025 18:33:59.385] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 30 ms
+[21Okt.2025 18:33:59.386] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id arcanewilds
+[21Okt.2025 18:33:59.393] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id arcanewilds finished after 7 ms
+[21Okt.2025 18:33:59.393] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id arcanewilds
+[21Okt.2025 18:33:59.394] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id arcanewilds finished after 0 ms
+[21Okt.2025 18:33:59.394] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: arcanewilds
+[21Okt.2025 18:33:59.442] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: arcanewilds finished after 47 ms
+[21Okt.2025 18:33:59.442] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: arcanewilds
+[21Okt.2025 18:33:59.510] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: arcanewilds finished after 67 ms
+[21Okt.2025 18:33:59.510] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 279 ms
+[21Okt.2025 18:33:59.515] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 233, old count: 233, new count: 234, removed stale: 0, written: 0
