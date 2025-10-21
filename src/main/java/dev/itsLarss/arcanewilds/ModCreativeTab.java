@@ -61,6 +61,7 @@ public class ModCreativeTab {
                         out.accept(ModItemClass.IGNIUM_LEGGINGS.get());
                         out.accept(ModItemClass.IGNIUM_BOOTS.get());
 
+                        out.accept(ModItemClass.HAMMER.get());
 
                     }).build());
 
