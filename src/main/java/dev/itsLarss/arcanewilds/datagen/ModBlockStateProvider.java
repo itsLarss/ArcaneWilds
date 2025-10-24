@@ -38,19 +38,25 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlockClass.JADE_BLOCK);
         blockWithItem(ModBlockClass.IGNIUM_BLOCK);
 
-        makeBush(ModBlockClass.STRAWBERRY_BUSH.get(), "strawberry_bush", "strawberry_bush");
-        makeBush(ModBlockClass.RASPBERRY_BUSH.get(), "raspberry_bush", "raspberry_bush");
-        makeBush(ModBlockClass.BLUEBERRY_BUSH.get(), "blueberry_bush", "blueberry_bush");
-        makeBush(ModBlockClass.BLACKBERRY_BUSH.get(), "blackberry_bush", "blackberry_bush");
+        registerBerryBushes();
     }
 
-    private void makeBush(Block block, String textureName, String modeName) {
-        getVariantBuilder(block).forAllStates(state -> {
+    private void registerBerryBushes() {
+        addBush(ModBlockClass.STRAWBERRY_BUSH.get(), "strawberry_bush");
+        addBush(ModBlockClass.RASPBERRY_BUSH.get(), "raspberry_bush");
+        addBush(ModBlockClass.BLUEBERRY_BUSH.get(), "blueberry_bush");
+        addBush(ModBlockClass.BLACKBERRY_BUSH.get(), "blackberry_bush");
+    }
+
+    private void addBush(Block bush, String name) {
+        getVariantBuilder(bush).forAllStates(state -> {
             int age = state.getValue(SweetBerryBushBlock.AGE);
-            ModelFile model = models().cross(modeName + "_stage" + age,
-                            ResourceLocation.fromNamespaceAndPath(ArcaneWilds.MOD_ID, "block/" + textureName + "_stage" + age))
+            ModelFile model = models().cross(name + "_stage" + age,
+                            modLoc("block/" + name + "_stage" + age))
                     .renderType("cutout");
-            return ConfiguredModel.builder().modelFile(model).build();
+            return ConfiguredModel.builder()
+                    .modelFile(model)
+                    .build();
         });
     }
 
