@@ -1,6 +1,10 @@
 package dev.itsLarss.arcanewilds.block;
 
 import dev.itsLarss.arcanewilds.ArcaneWilds;
+import dev.itsLarss.arcanewilds.block.berries.BlackberryBushBlock;
+import dev.itsLarss.arcanewilds.block.berries.BlueberryBushBlock;
+import dev.itsLarss.arcanewilds.block.berries.RaspberryBushBlock;
+import dev.itsLarss.arcanewilds.block.berries.StrawberryBushBlock;
 import dev.itsLarss.arcanewilds.item.ModItemClass;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -57,16 +61,16 @@ public class ModBlockClass {
 
 
     public static final RegistryObject<Block> RASPBERRY_BUSH = BLOCKS.register("raspberry_bush",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
+            () -> new RaspberryBushBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
 
     public static final RegistryObject<Block> STRAWBERRY_BUSH = BLOCKS.register("strawberry_bush",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
+            () -> new StrawberryBushBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
 
     public static final RegistryObject<Block> BLUEBERRY_BUSH = BLOCKS.register("blueberry_bush",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
+            () -> new BlueberryBushBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
 
     public static final RegistryObject<Block> BLACKBERRY_BUSH = BLOCKS.register("blackberry_bush",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
+            () -> new BlackberryBushBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
 
 
 
