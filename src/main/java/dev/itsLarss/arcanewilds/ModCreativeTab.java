@@ -17,6 +17,10 @@ public class ModCreativeTab {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItemClass.JADE.get()))
                     .title(Component.translatable("creative.arcane.wilds.tab"))
                     .displayItems((itemDisplayParameters, out) -> {
+                        out.accept(ModItemClass.BLACKBERRY.get());
+                        out.accept(ModItemClass.BLUEBERRY.get());
+                        out.accept(ModItemClass.STRAWBERRY.get());
+                        out.accept(ModItemClass.RASPBERRY.get());
 
                         out.accept(ModItemClass.AMETHYST.get());
                         out.accept(ModItemClass.JADE.get());

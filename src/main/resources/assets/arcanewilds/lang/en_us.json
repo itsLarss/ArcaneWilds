@@ -50,5 +50,10 @@
   "block.arcanewilds.jadeit_deepslate_ore": "Deepslate Jade Ore",
   "block.arcanewilds.ignium_ore": "Ignium Ore",
 
+  "block.arcanewilds.strawberry_bush": "Strawberry Bush",
+  "block.arcanewilds.raspberry_bush": "Raspberry Bush",
+  "block.arcanewilds.blueberry_bush": "Blueberry Bush",
+  "block.arcanewilds.blackberry_bush": "Blackberry Bush",
+
   "creative.arcane.wilds.tab": "Arcane Wilds"
 }

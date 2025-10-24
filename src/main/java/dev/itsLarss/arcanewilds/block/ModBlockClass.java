@@ -6,6 +6,7 @@ import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -30,7 +31,7 @@ public class ModBlockClass {
                             .strength(5f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> IGNIUM_ORE = registerBlock("ignium_ore",
-            () -> new DropExperienceBlock(UniformInt.of(3, 6), BlockBehaviour.Properties.of()
+            () -> new DropExperienceBlock(UniformInt.of(0, 0), BlockBehaviour.Properties.of()
                     .strength(30.0F, 1200.0F).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> AMETHYST_DEEPSLATE_ORE = registerBlock("amethyst_deepslate_ore",
@@ -52,6 +53,20 @@ public class ModBlockClass {
     public static final RegistryObject<Block> IGNIUM_BLOCK = registerBlock("ignium_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(50.0F, 1200.0F).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+
+
+
+    public static final RegistryObject<Block> RASPBERRY_BUSH = BLOCKS.register("raspberry_bush",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
+
+    public static final RegistryObject<Block> STRAWBERRY_BUSH = BLOCKS.register("strawberry_bush",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
+
+    public static final RegistryObject<Block> BLUEBERRY_BUSH = BLOCKS.register("blueberry_bush",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
+
+    public static final RegistryObject<Block> BLACKBERRY_BUSH = BLOCKS.register("blackberry_bush",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
 
 
 

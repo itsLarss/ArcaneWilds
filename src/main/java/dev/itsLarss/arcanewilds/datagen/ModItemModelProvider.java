@@ -46,6 +46,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItemClass.RAW_IGNIUM.get());
         basicItem(ModItemClass.IGNIUM_INGOT.get());
 
+        basicItem(ModItemClass.STRAWBERRY.get());
+        basicItem(ModItemClass.RASPBERRY.get());
+        basicItem(ModItemClass.BLUEBERRY.get());
+        basicItem(ModItemClass.BLACKBERRY.get());
+
         handheldItem(ModItemClass.HAMMER);
 
         handheldItem(ModItemClass.AMETHYST_SWORD);

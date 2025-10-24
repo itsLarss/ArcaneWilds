@@ -1,6 +1,7 @@
 package dev.itsLarss.arcanewilds.item;
 
 import dev.itsLarss.arcanewilds.ArcaneWilds;
+import dev.itsLarss.arcanewilds.block.ModBlockClass;
 import dev.itsLarss.arcanewilds.item.custom.HammerItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,19 +18,19 @@ public class ModItemClass {
             () -> new Item(new Item.Properties().stacksTo(64)));
      **/
 
-    /*public static final RegistryObject<Item> BLACKBERRY = ITEMS.register("blackberry",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.BLACKBERRY)));
+    public static final RegistryObject<Item> BLACKBERRY = ITEMS.register("blackberry",
+            () -> new ItemNameBlockItem(ModBlockClass.BLACKBERRY_BUSH.get(), new Item.Properties().food(ModFoodProperties.BLACKBERRY)));
 
     public static final RegistryObject<Item> BLUEBERRY = ITEMS.register("blueberry",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.BLUEBERRY)));
+            () -> new ItemNameBlockItem(ModBlockClass.BLUEBERRY_BUSH.get(), new Item.Properties().food(ModFoodProperties.BLUEBERRY)));
 
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.STRAWBERRY)));
+            () -> new ItemNameBlockItem(ModBlockClass.STRAWBERRY_BUSH.get(), new Item.Properties().food(ModFoodProperties.STRAWBERRY)));
 
     public static final RegistryObject<Item> RASPBERRY = ITEMS.register("raspberry",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.RASPBERRY)));
+            () -> new ItemNameBlockItem(ModBlockClass.RASPBERRY_BUSH.get(), new Item.Properties().food(ModFoodProperties.RASPBERRY)));
 
-    public static final RegistryObject<Item> LEMON = ITEMS.register("lemon",
+    /*public static final RegistryObject<Item> LEMON = ITEMS.register("lemon",
             () -> new Item(new Item.Properties().food(ModFoodProperties.LEMON)));
 
     public static final RegistryObject<Item> DRAGON_FRUIT = ITEMS.register("dragon_fruit",
